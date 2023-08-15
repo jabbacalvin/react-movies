@@ -5,7 +5,7 @@ export default function MoviesListPage({ movies }) {
     <div class="container">
       <div class="row">
         {movies.map((movie, index) => (
-          <div class="col s6">
+          <div class="col s3">
             <MovieCard movie={movie} />
           </div>
         ))}
